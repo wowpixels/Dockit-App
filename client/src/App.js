@@ -83,8 +83,8 @@ function App() {
   // show frontend app
   return (
     <div className="App">
-      <h1>Welcome,</h1>
-      <h4>What do you want to dock today?</h4>
+      <h1 className="text-center">Welcome,</h1>
+      <h4 className="text-center">What do you want to dock today?</h4>
       <div className="dockits">
         {dockits.map((dockit) => (
           <div

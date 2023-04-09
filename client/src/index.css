@@ -26,6 +26,10 @@ body {
   padding: 32px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 h1 {
   font-size: 40px;
   font-weight: 700;
@@ -42,7 +46,7 @@ h4 {
   position: relative;
   background-color: var(--dark);
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   transition: 0.5s;
@@ -63,13 +67,12 @@ h4 {
   transition: 0.4s;
 }
 
+.dockit.is-complete {
+  opacity: 0.4;
+}
+
 .dockit.is-complete .checkbox {
-  background-color: var(--primary);
-  background-image: linear-gradient(
-    to bottom,
-    var(--primary),
-    var(--secondary)
-  );
+  background-color: green;
 }
 
 .dockit .text {
@@ -124,7 +127,7 @@ h4 {
   max-width: 400px;
   background-color: var(--light);
   padding: 32px;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 3px 24px var(--dark);
 }
 
